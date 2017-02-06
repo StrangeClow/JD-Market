@@ -20,8 +20,8 @@ $(function() {
 		i=index;
 		$('#one li').eq(index).stop().fadeIn(300).siblings().stop().fadeOut(300);
 	})
-	//自动播放
-	var i =0;
+	//自动播放函数	
+ var i =0;
 	var t =setInterval(moveBy,500);
 	//自动播放核心函数
 	function move() {
