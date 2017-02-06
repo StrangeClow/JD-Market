@@ -6,7 +6,7 @@ body{font: 12px/150% Arial,Verdana,"\5b8b\4f53";color: #666;}
 /*侧边栏*/
 .jdm-toolbar-wrap {
 position: fixed;
-_position: absolute;
+
 top: 0;
 right: 0;
 z-index: 9990;
@@ -73,7 +73,7 @@ margin-left: 1px;
 position: relative;
 z-index: 2;
 background-color: #7a6e6e;
-_display: block;
+display: block;
 }
 .jdm-tbar-panel-header .close-panel, .jdm-tbar-panel-header i, .jdm-toolbar-tab .tab-ico, .jdm-toolbar-tab .tab-tip, .jdm-toolbar-tabs .tabs-tip .ico {
 display: inline-block;
